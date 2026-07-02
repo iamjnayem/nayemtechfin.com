@@ -1,0 +1,8 @@
+node_modules
+.git
+*.md
+.vscode
+dist
+portfolio.tar.gz
+vps
+deploy.sh

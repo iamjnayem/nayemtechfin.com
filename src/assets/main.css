@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    font-family: 'Inter', system-ui, sans-serif;
+  }
+
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .section-padding {
+    @apply px-4 sm:px-6 lg:px-8 py-16 sm:py-24;
+  }
+
+  .container-wide {
+    @apply max-w-7xl mx-auto;
+  }
+
+  .gradient-text {
+    @apply bg-gradient-to-r from-emerald-400 to-blue-500 bg-clip-text text-transparent;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold
+           bg-emerald-500 hover:bg-emerald-400 text-zinc-900
+           transition-all duration-200 shadow-lg shadow-emerald-500/25
+           hover:shadow-emerald-400/40 hover:-translate-y-0.5;
+  }
+
+  .btn-outline {
+    @apply inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold
+           border border-zinc-700 hover:border-emerald-500
+           text-zinc-100 hover:text-emerald-400
+           transition-all duration-200 hover:-translate-y-0.5;
+  }
+
+  .section-label {
+    @apply text-emerald-400 font-mono text-sm tracking-widest uppercase mb-4;
+  }
+
+  .section-title {
+    @apply text-3xl sm:text-4xl font-bold mb-6;
+  }
+}
+
+@keyframes marquee {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}
+
+.animate-marquee {
+  animation: marquee 40s linear infinite;
+}

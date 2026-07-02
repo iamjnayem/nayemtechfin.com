@@ -1,0 +1,30 @@
+services:
+  reverse-proxy:
+    image: nginx:stable-alpine
+    container_name: reverse-proxy
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./nginx/sites:/etc/nginx/conf.d:ro
+      - ./ssl:/etc/nginx/ssl:ro
+      - ./logs:/var/log/nginx
+    restart: unless-stopped
+    networks:
+      - app-network
+    depends_on:
+      - portfolio
+
+  portfolio:
+    build: ../.
+    container_name: portfolio
+    expose:
+      - "80"
+    restart: unless-stopped
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
