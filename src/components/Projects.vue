@@ -1,6 +1,13 @@
 <script setup>
 const projects = [
   {
+    name: 'Paymid Orchestration Platform',
+    description: 'Unified API layer integrating 20+ global payment processors with a single interface. Handles routing, failover, and transaction reconciliation.',
+    tech: ['Laravel', 'Vue.js', 'Docker', 'Mysql'],
+    github: '#',
+    live: 'https://play.google.com/store/apps/details?id=com.bd_cashbaba&pcampaignid=web_share',
+  },
+  {
     name: 'Payment Gateway Aggregator',
     description: 'Unified API layer integrating 20+ global payment processors with a single interface. Handles routing, failover, and transaction reconciliation.',
     tech: ['.NET', 'Microservices', 'Docker', 'PostgreSQL'],
