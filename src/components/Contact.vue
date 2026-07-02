@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const email = 'nayeem@example.com'
+const email = 'jannatulnayem1032@gmail.com'
 const copied = ref(false)
 
 function copyEmail() {
@@ -30,7 +30,7 @@ function copyEmail() {
             </svg>
             {{ copied ? 'Copied!' : 'Copy Email' }}
           </button>
-          <a href="https://linkedin.com/in/nayeem"
+          <a href="https://linkedin.com/in/jnayem"
              target="_blank" rel="noopener noreferrer"
              class="btn-outline justify-center">
             <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
