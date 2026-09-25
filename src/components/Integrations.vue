@@ -8,9 +8,9 @@ const gateways = [
 ]
 
 const categories = [
-  { name: 'Card Processing', gateways: ['BPN', 'GWX', 'Indiapay', 'Transact365', 'Openpayd', 'Twelvegroup', 'Radom', 'SWRPay', 'Letknowpay'] },
-  { name: 'Crypto & Digital Assets', gateways: ['Zerocap', 'Cryptopay Shift Forex', 'Bitpace', 'Coinsbuy', 'Binance Pay', 'Xcoins'] },
-  { name: 'APMs & Alternative', gateways: ['Vexora', 'RDD/Dolphin', 'Mandato Global', 'Trezuz', 'Transvoucher', 'Voucherry', 'Kotanipay'] },
+  { name: 'Card Processing', gateways: ['GWX', 'Mandato Global', 'Epayments24', 'Trezuz'] },
+  { name: 'Crypto & Digital Assets', gateways: ['Zerocap', 'Bitpace', 'Coinsbuy', 'Binance Pay', 'Xcoins', 'Digiblox', 'Dolphinpay', 'B2binpay', 'Letknowpay'] },
+  { name: 'APMs & Alternative', gateways: ['Vexora', 'RDD/Dolphin', 'Transvoucher', 'Voucherry', 'Kotanipay', 'Papayapay', 'Transact365', 'Yobopay', 'Wegopay', 'Fanbase', 'Indiapay', 'Monumpay', 'swrpay'] },
 ]
 </script>
 

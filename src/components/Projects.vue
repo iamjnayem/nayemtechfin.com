@@ -5,14 +5,14 @@ const projects = [
     description: 'Unified API layer integrating 20+ global payment processors with a single interface. Handles routing, failover, and transaction reconciliation.',
     tech: ['Laravel', 'Vue.js', 'Docker', 'Mysql'],
     github: '#',
-    live: 'https://play.google.com/store/apps/details?id=com.bd_cashbaba&pcampaignid=web_share',
+    live: 'https://app.paymid.com',
   },
   {
     name: 'Payment Gateway Aggregator',
     description: 'Unified API layer integrating 20+ global payment processors with a single interface. Handles routing, failover, and transaction reconciliation.',
     tech: ['.NET', 'Microservices', 'Docker', 'PostgreSQL'],
     github: '#',
-    live: 'https://play.google.com/store/apps/details?id=com.bd_cashbaba&pcampaignid=web_share',
+    live: 'https://api.sslwireless.com/login',
   },
   {
     name: 'ISO8583 Message Parser',
@@ -21,27 +21,6 @@ const projects = [
     github: '#',
     live: 'https://cashbaba.com.bd/',
   },
-  {
-    name: 'E-commerce Platform',
-    description: 'Full-featured e-commerce platform with product catalog, shopping cart, payment integration, and order management. Scalable architecture for high traffic.',
-    tech: ['Laravel', 'MySQL', 'Vue.js', 'Tailwind CSS'],
-    github: '#',
-    live: 'https://example-ecommerce.com',
-  },
-  {
-    name: 'Bakery Management System',
-    description: 'Comprehensive bakery management system with inventory tracking, order processing, and reporting capabilities.',
-    tech: ['Laravel', 'MySQL', 'Vue.js', 'Tailwind CSS'],
-    github: '#',
-    live: 'https://example-bakery.com',
-  },
-  {
-    name: 'Saloon Management System',
-    description: 'Comprehensive saloon management system with appointment scheduling, service tracking, and customer management.',
-    tech: ['Laravel', 'MySQL', 'Vue.js', 'Tailwind CSS'],
-    github: '#',
-    live: 'https://example-saloon.com',
-  }
 ]
 </script>
 
